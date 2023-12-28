@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jignesh Shah</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">My<span> Portfolio Website</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">JIGNESH SHAH</div>
+        <div class="text-3">Im a <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images/P3021961.jpg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Jignesh Shah and Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            
+I'm Jignesh Shah, a passionate Electronics and Communication Engineering student at Dr. Vishwanath Karad MIT World Peace University in Pune. With an insatiable curiosity for innovation and technology, I've immersed myself in diverse projects and learning experiences that have shaped my journey.
+
+Driven by Problem-Solving
+My journey in technology has been driven by a relentless pursuit of problem-solving. Whether it's devising algorithms for real-time anomaly detection or engineering solutions for violence detection using Computer Vision, I thrive in challenging environments where creativity meets functionality.
+
+Intersection of Creativity and Technology
+I believe in the seamless integration of creativity into technology. My work isn’t just about lines of code or hardware components; it's about crafting solutions that are not only technically sound but also elegant and innovative. I find joy in blending artistry with functionality, creating solutions that are both efficient and visually compelling.
+Continuous Learning & Growth
+My enthusiasm for learning extends far beyond the confines of the classroom. Engaging in workshops, certifications, and hackathons has been pivotal in broadening my horizons. Each experience fuels my quest for knowledge, allowing me to stay at the forefront of emerging technologies.
+Collaborative & Forward-Thinking
+Collaboration is at the core of my approach. I thrive in team environments, valuing diverse perspectives and collective innovation. My forward-thinking mindset enables me to anticipate technological trends and adapt swiftly to dynamic industry landscapes.
+
+Beyond Technology
+While technology is my primary passion, I also find solace in exploring diverse interests. Whether it's delving into literature, engaging in outdoor activities, or contributing to community initiatives, I believe in a holistic approach to life that balances innovation with personal enrichment.
+
+Vision for the Future
+My ultimate goal is to continue pushing the boundaries of innovation, contributing meaningfully to the evolution of technology. I aspire to be part of transformative projects that not only solve existing problems but also pave the way for a brighter, more connected future.
+
+Craft your "About Me" section by weaving together your personal journey, passion for technology, collaborative spirit, continuous learning ethos, and your vision for the future. This section should encapsulate your unique personality, aspirations, and the essence of what drives your professional pursuits.</p>
+          <a href="https://drive.google.com/file/d/1jOMLavxVrgIAtrAoxkNJiQlWfiPgdtV8/view?usp=sharing"> Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Services</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text">Computer Vision & AI Projects</div>
+            <p>
+I specialize in Computer Vision and Artificial Intelligence, leveraging my expertise in Python, OpenCV, Tensorflow, and YOLO. My portfolio showcases impactful projects like EnVision AI, Parirakshak, and the Rescue Drone. These ventures involved real-time anomaly detection, violence detection in CCTV networks, and the development of a rescue drone prototype. Through these initiatives, I integrated cutting-edge technologies to solve critical problems, utilizing tools like Docker, Machine Learning, and specific hardware like NVIDIA servers and Raspberry Pi. My work in Computer Vision extends to practical applications, enhancing surveillance systems and contributing to innovative solutions for emergency situations.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">Embedded Systems Expertise</div>
+            <p>
+              My proficiency in Embedded Systems encompasses a spectrum of skills, including Embedded C, VHDL, and hands-on experience with hardware like Raspberry Pi. I actively participated in hackathons such as e-Yantra Hardware Hackathon 2023, where our team created a prototype rescue drone. Utilizing Python, OpenCV, YOLO, and MobileNetSSD, we developed a real-time human detection mechanism crucial for emergency scenarios. Through my knowledge of hardware interfacing and software integration, I contribute to innovative solutions, bridging the gap between software and hardware domains to address real-world challenges.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text">Continuous Learning & Technical Certifications</div>
+            <p>
+              Driven by a passion for learning, I've pursued and completed various courses and certifications to stay at the forefront of technology. These endeavors include courses from renowned institutions like Indian Institute of Technology, Bombay, and National Institute of Electronics and Information Technology. Noteworthy certifications span from IoT and Electronic Devices & Characterization to workshops on Cyber Security and Agile Testing & Methodology. Active participation in workshops, conferences, and summits reflects my commitment to ongoing education, focusing on areas like Cryptography, Blockchain, Network Security, and emerging technologies in Electronics and Computer Science.
+
+Utilize these descriptions to showcase your expertise, experiences, and commitment to continuous learning and growth in your portfolio website, aligning each section with the specific skills and projects you've highlighted in your resume.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills & experiences.
+          </div>
+          <p class="paragraph-2">
+           Innovation in Technology
+My journey in Electronics and Communication Engineering has been marked by a passion for innovation. I've consistently applied creative thinking to technological challenges, evident in projects like EnVision AI, Parirakshak, and the Rescue Drone. These endeavors required not just technical prowess but a creative approach to problem-solving, enabling me to devise novel solutions in Computer Vision and Artificial Intelligence.
+
+Integrating Artistry into Technology
+I believe that technology isn’t just functional; it can be an art form. My work in Computer Vision and Embedded Systems involves a fusion of technical expertise with an artistic touch. For instance, in the development of the rescue drone prototype, the challenge wasn’t merely about functionality but also about designing an aesthetically sound and efficient solution.
+
+Bridging the Gap Between Creativity and Functionality
+I've always sought to bridge the gap between creativity and functionality in my projects. From coding complex algorithms for violence detection in CCTV networks to implementing real-time human detection in the rescue drone using Python and OpenCV, I've strived to infuse creative solutions into the heart of technological advancements.
+
+Design Thinking & Problem-Solving
+My approach involves a design-thinking mindset, where I blend analytical thinking with creative problem-solving. This unique blend allows me to envision unconventional solutions while maintaining a pragmatic approach. Whether it's designing algorithms or integrating hardware components, my creative instincts guide the process, leading to innovative outcomes.
+
+Continuous Exploration & Experimentation
+Creativity, for me, is an ongoing journey of exploration and experimentation. Beyond the realm of technical skills, I actively explore diverse domains through workshops, conferences, and collaborative projects. This continuous learning process not only fuels my creativity but also adds depth to my technological expertise.
+
+Utilize these insights to portray how your creative thinking and approach have influenced and enhanced your technological endeavors. Showcase instances where creativity played a pivotal role in driving innovation and problem-solving within the field of technology and engineering.</p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">Connect & Collaborate
+I'm always eager to connect with fellow enthusiasts, industry professionals, and collaborators passionate about technology, innovation, and creative problem-solving. Whether you want to discuss potential collaborations, share insights, or explore new ideas, I'm excited to engage in meaningful conversations.
+
+Reach Out
+Feel free to reach out via email at jigneshs110@gmail.com or connect with me on LinkedIn at LinkedIn Profile. I'm open to discussing projects, sharing experiences, or simply exchanging thoughts on the latest technological advancements.
+
+Let's Collaborate
+If you're interested in exploring collaborations, have a project in mind, or simply want to exchange ideas, drop me a message. I'm enthusiastic about collaborating on innovative ventures, contributing to impactful projects, or participating in discussions that drive technological evolution.
+
+Stay Connected
+Stay updated with my latest projects, insights, and explorations in technology. Follow me on GitHub at GitHub Profile to see my code repositories and contributions. Let's stay connected and explore the endless possibilities at the intersection of creativity and technology.
+
+Let's Make a Difference
+I believe that together, we can make a real difference. Let's join forces, share knowledge, and embark on a journey towards innovation that not only solves problems but shapes a brighter, more connected future.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">JIGNESH SHAH</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">PUNE, MAHARASHTRA</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">jigneshs110@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">JIGNESH SHAH</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+          <a href="{{YOUR LINKEDIN}}"><i class="fab fa-linkedin"></i></a>
+          <a href="{{YOUR GITHUB}}"><i class="fab fa-github"></i></a>
+          <a href="{{YOUR YOUTUBE}}"><i class="fab fa-youtube"></i></a>
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
